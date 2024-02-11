@@ -1,0 +1,12 @@
+<templateSet group="Zen HTML">
+  <template name="source:media:sizes" value="&lt;source media=&quot;($VAR0$)&quot; srcset=&quot;$VAR2$&quot; sizes=&quot;$VAR1$&quot;&gt;" description="&lt;source media=&quot;(...)&quot; srcset=&quot;...&quot; sizes=&quot;...&quot;&gt;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;min-width: &quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="TSX_HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
